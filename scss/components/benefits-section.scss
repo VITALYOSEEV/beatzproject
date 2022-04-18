@@ -1,0 +1,16 @@
+.benefits-section {
+  position: relative;
+
+  @include phones {
+    background: none;
+  }
+
+  &:before {
+    content: url(../img/Vector2.svg);
+    position: absolute;
+    bottom: rem(-25px);
+    left: 5%;
+
+  
+  }
+}

@@ -1,0 +1,63 @@
+$containerWidth: 940px;
+$baseFontSize: 16px;
+
+//breakpoints
+
+$tablets: 768px;
+$phones: 480px;
+
+// colors
+$white: #F5F5F5;
+$red: #E01F3D;
+$black:#292929;
+$gray:#666666;
+
+//z-indexes
+$z-fixed-menu:100;
+
+@import "media";
+
+// normalize
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css");
+
+// setups
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;400&family=Play:wght@400;700&display=swap');
+@import "components/layout.scss";
+
+// components
+@import "components/hero.scss";
+@import "components/header.scss";
+@import "components/features.scss";
+@import "components/feature.scss";
+@import "components/btn.scss";
+@import "components/section.scss";
+@import "components/headline.scss";
+@import "components/benefits.scss";
+@import "components/benefit.scss";
+@import "components/benefits-section.scss";
+@import "components/reviews.scss";
+@import "components/interactive-avatar.scss";
+@import "components/order-section.scss";
+@import "components/form.scss";
+@import "components/radio.scss";
+@import "components/fixed-menu.scss";
+@import "components/menu.scss";
+@import "components/hamburger.scss";
+@import "components/map.scss";
+@import "components/footer.scss";
+@import "components/phone-number.scss";
+@import "components/socials.scss";
+@import "components/contacts.scss";
+@import "components/reviews__switcher.scss";
+@import "components/products.scss";
+@import "components/products-slider.scss";
+@import "components/products-section.scss";
+@import "components/product.scss";
+@import "components/ingredients.scss";
+@import "components/fullscreen-menu.scss";
+@import "components/products-menu.scss";
+@import "components/team.scss";
+@import "components/modal.scss";
+@import "components/player-section.scss";
+@import "components/player.scss";
+@import "components/products-menu-section.scss";

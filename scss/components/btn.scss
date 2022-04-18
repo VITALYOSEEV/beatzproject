@@ -1,0 +1,45 @@
+.btn {
+  font-size: rem(16px);
+  font-weight: bold;
+  padding: rem(18px) rem(41px);
+  text-transform: uppercase;
+  border-radius: rem(100px);
+  line-height: 1;
+  text-decoration: none;
+  display: inline-block;
+  border: none;
+
+  &--theme--white {
+    background: $red;
+    color: $white;
+
+    &:hover {
+      color: $red;
+      background-color: $white;
+
+    }
+  }
+
+  &--theme--red {
+    background: $red;
+    color: $white;
+
+    &:hover {
+      color: $red;
+      background-color: $white;
+
+    }
+  }
+
+  &--theme--transparent {
+    background: transparent;
+    color: $white;
+    text-transform: none;
+
+    &:hover {
+      color: $red;
+     
+
+    }
+  }
+}
