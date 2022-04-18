@@ -1,0 +1,10 @@
+.benefits-section {
+  position: relative;
+}
+.benefits-section:before {
+  content: url(/project2/css/img/Vector2.svg);
+  position: absolute;
+  bottom: rem(-80px);
+  left: 0;
+}
+/*# sourceMappingURL=benefits-section.css.map */

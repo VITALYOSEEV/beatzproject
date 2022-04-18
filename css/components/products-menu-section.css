@@ -1,0 +1,15 @@
+.products-menu-section {
+  background: url("/project2/img/women.jpg") center center/cover no-repeat;
+  position: relative;
+  color: #fff;
+}
+.products-menu-section:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.2);
+}
